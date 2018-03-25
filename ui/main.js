@@ -7,6 +7,11 @@ element.innerHTML='new value';
 //to move image
 
 var img = document.getElementById('potter');
+var marginLeft=0;
+function moveRight(){
+    marginLeft=marginLeft+10;
+    potter.style.marginLeft=marginLeft +'px';
+}
 potter.onclick=function(){
-    potter.style.marginLeft='100px';
+    var Interval=setInterval(moveRight,100);
 };

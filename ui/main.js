@@ -7,6 +7,6 @@ element.innerHTML='new value';
 //to move image
 
 var img = document.getElementById('potter');
-img.onclick=function(){
-    img.style.marginLeft='100px';
+potter.onclick=function(){
+    potter.style.marginLeft='100px';
 };

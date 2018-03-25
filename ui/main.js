@@ -9,9 +9,9 @@ element.innerHTML='new value';
 var img = document.getElementById('potter');
 var marginLeft=0;
 function moveRight(){
-    marginLeft=marginLeft+10;
+    marginLeft=marginLeft+1;
     potter.style.marginLeft=marginLeft +'px';
 }
 potter.onclick=function(){
-    var Interval=setInterval(moveRight,100);
+    var Interval=setInterval(moveRight,50);
 };
